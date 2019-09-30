@@ -1,0 +1,9 @@
+digraph lua {
+node [shape=record];
+base [label="base 7.0.3"]
+require [label="require 3.1.1"]
+ASYN [label="ASYN 4.36.0"]
+lua [label="lua 2.0.0"]
+base -> require -> { ASYN } ->  {  lua  } 
+} 
+
